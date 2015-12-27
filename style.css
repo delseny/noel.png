@@ -11,44 +11,103 @@ header{
   height: 30px;
 }
 
+ul{
+  margin-left: 130px;
+}
+
 li{
   list-style-type: none;
   color: white;
   display: inline;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+#titre{
+  margin-left: 150px;
+  margin-top: 15px;
 }
 
 .gauche{
-  margin-left: 100px;
+  margin-left: 150px;
   margin-top: 20px;
 }
 
 article {
-  border: 1px black solid;
-  width: 100px;
-  height: 20px;
+  border: 1px solid #7a7a7a;
+  width: 170px;
+  height: 30px;
 }
 
-#{
+#bleu{
   background-color: blue;
+
+}
+
+#blanc{
+  color: white;
+}
+
+.cat{
+  margin-left: 10px;
+  margin-top: 5px;
+  color: #7a7a7a;
 }
 
 .image{
   float: right;
-  width: 700px;
-  margin-right: 100px;
-  margin-top: 20px;
+  width: 800px;
+  margin-right: 150px;
+  margin-top: -120px;
   border: solid 1px black;
 }
 
 .note{
   float: right;
-  width: 700px;
+  width: 800px;
   height: 400px;
   margin-top: 10px;
-  margin-right: 100px;
+  margin-right: 150px;
 }
 
 .a{
   height: 50px;
   border: solid 1px black;
+}
+
+#b{
+  color: blue;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+span{
+  color: blue;
+}
+
+.c{
+  font-size: 16px;
+  margin-left: 15px;
+  margin-top: 20px;
+  font-weight: lighter;
+}
+
+p{
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.ago{
+  float: right;
+  color: black;
+}
+
+h5{
+  font-weight: lighter;
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+h4{
+  font-weight: lighter;
 }
