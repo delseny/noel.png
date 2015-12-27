@@ -65,14 +65,17 @@ article {
 .note{
   float: right;
   width: 800px;
-  height: 400px;
+  height: 200px;
   margin-top: 10px;
   margin-right: 150px;
+  background-color: #e8e8e8;
+  border: solid 1px;
+  border-color: #7a7a7a;
 }
 
 .a{
   height: 50px;
-  border: solid 1px black;
+  border-bottom: solid 1px #7a7a7a;
 }
 
 #b{
@@ -100,6 +103,8 @@ p{
 .ago{
   float: right;
   color: black;
+  margin-right: 10px;
+  margin-top: 5px;
 }
 
 h5{
@@ -110,4 +115,20 @@ h5{
 
 h4{
   font-weight: lighter;
+}
+i{
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+#bouton{
+  outline-style: none;
+  background-color: green;
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+  color: white;
+  padding: 5px;
+  border-radius: 10%;
+  font-size: 14px;
 }
